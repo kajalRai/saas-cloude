@@ -2,7 +2,7 @@
 
 import os,sys,commands ,socket,time
 s=socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
-#x store the manu options
+#x store the menu options
 x='''
 press 1  for  firefox :
 press 2  for  gedit :
@@ -12,7 +12,7 @@ press 5  for  Calculater:
 press 6  for  Webcam :
 press 7  for  ImageVeiwer :
 '''
-#ch take the input for manu
+#ch take the input for menu
 ch=raw_input(x)
 
 if ch=='1':
